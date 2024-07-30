@@ -1,0 +1,141 @@
+.sneakers {
+}
+.sneakers-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.sneakers-all {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.sneakers-item {
+  width: 210px;
+  height: 260px;
+  position: relative;
+  border-radius: 40px;
+  border: 1px solid #ebe9e9;
+  opacity: 0px;
+  margin-top: 40px;
+}
+.sneakers-item__shadow {
+  box-shadow: 0px 5px 24px 2px rgba(34, 60, 80, 0.2);
+}
+.item-heart {
+  border: 1px solid rgb(237, 237, 237);
+  background-image: url(../img/liked-img.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 22px;
+  left: 22px;
+  border-radius: 5px;
+
+  padding-top: 7px;
+}
+.liked {
+}
+
+.item-heart:active {
+  background-color: lightgray;
+}
+
+.item-heart__liked {
+  background-image: url(../img/liked.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #ffd2d2;
+}
+
+.sneakers-image {
+  text-align: center;
+}
+#sneakers-img {
+  width: 133px;
+  height: 112px;
+}
+.sneakers-item__desc {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 14px 30px 0px 30px;
+}
+.sneakers-item__botom {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 30px 34px 30px;
+}
+.item-price {
+}
+.item-price__desc {
+  font-weight: 500;
+  font-size: 11px;
+  color: #bdbdbd;
+}
+.item-price__count {
+}
+.item-status {
+}
+.item-status__check {
+  border: 1px solid rgb(237, 237, 237);
+  background: #fff;
+  cursor: pointer;
+  text-align: center;
+  background-image: url(../img/item-add.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 5px;
+}
+
+.item-status__checked {
+  background: #3cc755;
+  background-image: url(../img/item_in_basket.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.sneakers-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+input::placeholder {
+  opacity: 0.4;
+  color: lightgray;
+}
+/* box-shadow: 0px 5px 24px 2px rgba(34, 60, 80, 0.2) */
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+.input-container input {
+  padding-left: 35px; /* Учитывает ширину изображения и отступ */
+  box-sizing: border-box; /* Чтобы padding учитывался в ширине элемента */
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.input-container .icon {
+  position: absolute;
+  left: 10px;
+
+  top: 20%;
+
+  pointer-events: none; /* Чтобы изображение не мешало вводить текст */
+}
+
+.hide {
+  display: none;
+}

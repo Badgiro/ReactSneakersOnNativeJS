@@ -1,0 +1,198 @@
+/* body {
+  overflow: hidden;
+} */
+
+.basket-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99998;
+  background-color: rgba(6, 6, 6, 0.3);
+  overflow-y: auto;
+  align-items: end;
+  float: right;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.basket-open {
+  visibility: visible;
+  opacity: 1;
+}
+.basket {
+  z-index: 1;
+  width: 385px;
+  min-height: 100vh;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.basket-items__wrapper {
+  max-width: 330px;
+
+  margin: 30px auto;
+}
+.basket-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 30px 0px 0px 30px;
+}
+.basket-item {
+  position: relative;
+  display: flex;
+  width: 325px;
+  height: 119px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+.basket-item__image {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.basket-item__img {
+  width: 100%;
+  height: auto;
+}
+.basket-item__info {
+  max-width: 150px;
+  margin: auto;
+}
+
+.basket-info__price {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.basket-item__delete {
+  border: 1px solid rgb(237, 237, 237);
+  background-image: url(../img/delete-item.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 77px;
+  left: 283px;
+  border-radius: 5px;
+}
+/* calculate price and tax */
+.basket-calc__wrapper {
+  width: 100%;
+  max-width: 330px;
+  margin: 0px auto;
+}
+
+.basket-calc__visibility {
+  display: none;
+}
+.basket-calc__price {
+}
+.calc-price__spacer {
+  margin-left: auto;
+  position: relative;
+  flex-grow: 1;
+}
+.calc-price__spacer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 3px dotted lightgray;
+}
+
+.calc-price_sum {
+  display: flex;
+}
+.calc-price__amount {
+  font-weight: 600;
+  font-size: 16px;
+}
+.basket-calc__tax {
+  margin-top: 20px;
+  display: flex;
+}
+.calc-tax__amount {
+  font-weight: 600;
+  font-size: 16px;
+}
+.basket-calc__button {
+  width: 325px;
+  height: 55px;
+  text-align: center;
+  background: #9dd458;
+  margin-top: 25px;
+  border: 0px;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* empty basket */
+.basket-empty {
+  margin: 200px auto;
+  text-align: center;
+  max-width: 285px;
+  width: 100%;
+}
+.basket-empty__img {
+}
+.basket-empty-title {
+  margin-top: 21px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.basket-empty__desc {
+  font-size: 16px;
+  color: lightgray;
+}
+.basket-empty__button {
+  margin-top: 40px;
+  width: 245px;
+  height: 55px;
+  text-align: center;
+  background: #9dd458;
+  border: 0px;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.invisible {
+  display: none;
+}
+.liked {
+}
+.invisible {
+}
+.markers-head {
+  display: flex;
+}
+.closer {
+  border: 0px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 5px;
+}
+.markers-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 25px;
+}
+.markers {
+}

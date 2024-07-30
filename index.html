@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/headerStyles.css" />
+    <link rel="stylesheet" href="./css/sliderStyles.css" />
+    <link rel="stylesheet" href="./css/sneakersStyle.css" />
+    <link rel="stylesheet" href="./css/basket.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-left">
+          <div class="header-logo"><img src="./img/logo.png" alt="oops" /></div>
+          <div class="header-description">
+            <div class="header-title">REACT SNEAKERS</div>
+            <div class="header-desc">Магазин лучших кроссовок</div>
+          </div>
+        </div>
+        <div class="header-right">
+          <button class="header-basket__holder">
+            <div class="basket-image">
+              <img src="./img/basket-img.svg" alt="#" />
+            </div>
+
+            <div class="basket-counter">0 руб.</div>
+          </button>
+          <button class="header-liked">
+            <div class="liked-img">
+              <img src="./img/liked-img.svg" alt=#"" />
+            </div>
+            <div class="liked-desc">Закладки</div>
+          </button>
+          <div class="header-profile">
+            <div class="profile-logo">
+              <img src="/img/profile-img.svg" alt="#" />
+            </div>
+
+            <div class="profile-desc">Профиль</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="slider" id="slider-holder">
+        <!-- elem -->
+        <div class="slider-element">
+          <div class="slider-left">
+            <div class="slider-logo">
+              <img src="./img/slider-logo.png" alt="oops" />
+            </div>
+            <div class="slider-desc">
+              <span style="color: #9bc21a">Stan Smith</span>, Forever!
+            </div>
+            <button class="slider-button">КУПИТЬ</button>
+          </div>
+          <div class="slider-right">
+            <img src="./img/slider-image.png" alt="oops" />
+          </div>
+        </div>
+        <!-- /elem -->
+        <!-- elem -->
+        <div class="slider-element">
+          <div class="slider-left">
+            <div class="slider-logo">
+              <img src="./img/slider-logo.png" alt="oops" />
+            </div>
+            <div class="slider-desc">
+              <span style="color: #9bc21a">Robert Smith</span>, Forever!
+            </div>
+            <button class="slider-button">КУПИТЬ</button>
+          </div>
+          <div class="slider-right">
+            <img src="./img/slider-image.png" alt="oops" />
+          </div>
+        </div>
+        <!-- /elem -->
+        <!-- elem -->
+        <div class="slider-element">
+          <div class="slider-left">
+            <div class="slider-logo">
+              <img src="./img/slider-logo.png" alt="oops" />
+            </div>
+            <div class="slider-desc">
+              <span style="color: #9bc21a">Anton Smith</span>, Forever!
+            </div>
+            <button class="slider-button">КУПИТЬ</button>
+          </div>
+          <div class="slider-right">
+            <img src="./img/slider-image.png" alt="oops" />
+          </div>
+        </div>
+        <!-- /elem -->
+        <!-- elem -->
+        <div class="slider-element">
+          <div class="slider-left">
+            <div class="slider-logo">
+              <img src="./img/slider-logo.png" alt="oops" />
+            </div>
+            <div class="slider-desc">
+              <span style="color: #9bc21a">Vitaliy Smith</span>, Forever!
+            </div>
+            <button class="slider-button">КУПИТЬ</button>
+          </div>
+          <div class="slider-right">
+            <img src="./img/slider-image.png" alt="oops" />
+          </div>
+        </div>
+        <!-- /elem -->
+        <button class="slider-arrow">
+          <img src="./img/slider-arrow.svg" alt="oops" />
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sneakers">
+        <div class="sneakers-top">
+          <div class="sneakers-title">Все кроссовки</div>
+          <div class="input-container">
+            <img src="./img/searchIcon.svg" class="icon" alt="Search Icon" />
+            <input id="sneakers-input" type="text" placeholder="Поиск..." />
+          </div>
+        </div>
+        <div class="sneakers-all" id="sneakers-holder">
+          <!-- <div class="sneakers-item" data-id="">
+            <button class="item-heart" id="heart-changer"></button>
+
+            <div class="sneakers-image">
+              <img id="1" src="./img/sneakers-NikeBlazerMidSuede.jpg" alt="" />
+            </div>
+            <div class="sneakers-item__desc">
+              Мужские Кроссовки Nike Blazer Mid Suede
+            </div>
+            <div class="sneakers-item__botom">
+              <div class="item-price">
+                <div class="item-price__desc">ЦЕНА:</div>
+                <div class="item-price__count">12999 <span>руб</span></div>
+              </div>
+              <div class="item-status">
+                <button class="item-status__check"></button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="basket-wrapper">
+        <div class="basket">
+          <div class="basket-title">Корзина</div>
+          <div class="basket-items__wrapper">
+            <!-- ///////////////////////// -->
+          </div>
+          <div class="basket-calc__wrapper basket-calc__visibility">
+            <div class="basket-calc__price">
+              <div class="calc-price_sum">
+                <div>Итого:</div>
+                <div class="calc-price__spacer"></div>
+                <div class="calc-price__amoun basket-counter">0 руб</div>
+              </div>
+            </div>
+            <div class="basket-calc__tax">
+              <div>Налог 5%:</div>
+              <div class="calc-price__spacer"></div>
+              <div class="calc-tax__amount">0 руб</div>
+            </div>
+            <button class="basket-calc__button">
+              Оформить заказ <img src="./img/basketOrderArrow.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="basket-empty">
+            <div class="basket-empty__img">
+              <img src="./img/emptyBasket.svg" alt="" />
+            </div>
+            <div class="basket-empty-title">Корзина пустая</div>
+            <div class="basket-empty__desc">
+              Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.
+            </div>
+            <button type="button" class="basket-empty__button">
+              <img src="./img/basketEmptyArrow.svg" alt="" /> Вернуться назад
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="liked invisible">
+      <div class="markers-head">
+        <button class="closer">
+          <img src="./img/markersArrow.svg" alt="" />
+        </button>
+        <div class="markers-title">Мои закладки</div>
+      </div>
+      <div class="markers"></div>
+    </div>
+
+    <script src="./js/basketStatus.js"></script>
+    <script src="./js/cardInBasket.js"></script>
+    <script src="./js/calcCartPriceAndTax.js"></script>
+
+    <script src="./js/renderProducts.js"></script>
+
+    <script src="./js/slider.js"></script>
+
+    <script src="./js/buttons.js"></script>
+
+    <script src="./js/Search.js"></script>
+    <script src="./js/test.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "sneakers-NikeBlazerMidSuede.jpg",
+    "product": "Мужские Кроссовки Nike Blazer Mid Suede",
+    "price": "12999"
+  },
+  {
+    "id": 2,
+    "imgSrc": "Nike Air Max 270.jpg",
+    "product": "Мужские Кроссовки Nike Air Max 270",
+    "price": "12999"
+  },
+  {
+    "id": 3,
+    "imgSrc": "Nike Blazer Mid Suede.jpg",
+    "product": "Мужские Кроссовки Nike Blazer Mid Suede",
+    "price": "8499"
+  },
+  {
+    "id": 4,
+    "imgSrc": "Puma X Aka Boku Future Rider.png",
+    "product": "Кроссовки Puma X Aka Boku Future Rider",
+    "price": "8999"
+  },
+  {
+    "id": 5,
+    "imgSrc": "Under Armour Curry 8.jpg",
+    "product": "Мужские Кроссовки Under Armour Curry 8",
+    "price": "15199"
+  },
+  {
+    "id": 6,
+    "imgSrc": "Nike Kyrie 7.jpg",
+    "product": "Мужские Кроссовки Nike Kyrie 7",
+    "price": "11299"
+  },
+  {
+    "id": 7,
+    "imgSrc": "Jordan Air Jordan 11.jpg",
+    "product": "Мужские Кроссовки Jordan Air Jordan 11",
+    "price": "10799"
+  },
+  {
+    "id": 8,
+    "imgSrc": "Nike LeBron XVIII.jpg",
+    "product": "Мужские Кроссовки Nike LeBron XVIII",
+    "price": "16499"
+  },
+
+  {
+    "id": 9,
+    "imgSrc": "Nike Lebron XVIII Low.jpg",
+    "product": "Мужские Кроссовки Nike Lebron XVIII Low",
+    "price": "13999"
+  },
+  {
+    "id": 10,
+    "imgSrc": "sneakers-NikeBlazerMidSuede.jpg",
+    "product": "Мужские Кроссовки Nike Blazer Mid Suede",
+    "price": "8499"
+  },
+  {
+    "id": 11,
+    "imgSrc": "Puma X Aka Boku Future Rider.png",
+    "product": "Кроссовки Puma X Aka Boku Future Rider",
+    "price": "8999"
+  },
+  {
+    "id": 12,
+    "imgSrc": "Nike Kyrie Flytrap IV.jpg",
+    "product": "Мужские Кроссовки Nike Kyrie Flytrap IV",
+    "price": "11299"
+  }
+]

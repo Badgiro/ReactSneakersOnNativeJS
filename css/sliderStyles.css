@@ -1,0 +1,85 @@
+.slider {
+  height: 302px;
+  border-radius: 19px;
+  position: relative;
+}
+.slider-arrow {
+  position: absolute;
+  top: 133px;
+  left: 942px;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 0.5px solid gray;
+}
+.slider-arrow:hover {
+  transform: scale(1.1);
+}
+.slider-element {
+  display: flex;
+  transition: 0.1s;
+  display: none;
+  animation-name: Animation;
+  animation-duration: 1s;
+}
+.slider-element:hover {
+  transform: scale(1.002);
+}
+.slider-left {
+  width: 100%;
+  background-color: #f4efe9;
+  height: 300px;
+  border-radius: 20px 0px 0px 20px;
+}
+.slider-logo {
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.slider-desc {
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 38px;
+  margin-left: 60px;
+}
+.slider-right {
+}
+.slider-button {
+  background: #a5d364;
+  border-radius: 110px;
+  border: 0px;
+  margin-left: 60px;
+  margin-top: 25px;
+  width: 178px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.slider-button:hover {
+  background: green;
+  cursor: pointer;
+}
+.slider-button:active {
+  background: darkgreen;
+}
+
+.active-slider__element {
+  display: flex;
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
