@@ -195,4 +195,6 @@
   margin-left: 25px;
 }
 .markers {
+  display: flex;
+  justify-content: space-around;
 }

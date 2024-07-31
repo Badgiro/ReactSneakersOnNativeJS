@@ -16,6 +16,7 @@ function basketStatusCheck() {
       .addEventListener("click", () => {
         const basketVisibility = document.querySelector(".basket-wrapper");
         basketVisibility.classList.remove("basket-open");
+        document.body.style.overflow = "";
       });
   }
 }

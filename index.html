@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/sliderStyles.css" />
     <link rel="stylesheet" href="./css/sneakersStyle.css" />
     <link rel="stylesheet" href="./css/basket.css" />
+    <link rel="stylesheet" href="./css/liked.css" />
     <title>Document</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
         <div class="header-left">
           <div class="header-logo"><img src="./img/logo.png" alt="oops" /></div>
           <div class="header-description">
-            <div class="header-title">REACT SNEAKERS</div>
+            <a href="#" class="header-title">REACT SNEAKERS</a>
             <div class="header-desc">Магазин лучших кроссовок</div>
           </div>
         </div>
@@ -198,12 +199,20 @@
 
     <div class="liked invisible">
       <div class="markers-head">
-        <button class="closer">
+        <button class="markersArrow closer">
           <img src="./img/markersArrow.svg" alt="" />
         </button>
         <div class="markers-title">Мои закладки</div>
       </div>
       <div class="markers"></div>
+      <div class="empty-markers">
+        <div class="empty-smile"><img src="./img/sadMarkers.png" alt="" /></div>
+        <div class="empty-markers__title">Закладок нет :(</div>
+        <div class="empty-markers__desc">Вы ничего не добавляли в закладки</div>
+        <button class="empty-markers__button closer">
+          <img src="./img/basketEmptyArrow.svg" alt="" /> Вернуться
+        </button>
+      </div>
     </div>
 
     <script src="./js/basketStatus.js"></script>
@@ -217,6 +226,6 @@
     <script src="./js/buttons.js"></script>
 
     <script src="./js/Search.js"></script>
-    <script src="./js/test.js"></script>
+    <script src="./js/ItemsInLiked.js"></script>
   </body>
 </html>

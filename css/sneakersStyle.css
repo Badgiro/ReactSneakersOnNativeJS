@@ -121,7 +121,7 @@ input::placeholder {
   display: inline-block;
 }
 .input-container input {
-  padding-left: 35px; /* Учитывает ширину изображения и отступ */
+  padding-left: 35px;
   box-sizing: border-box; /* Чтобы padding учитывался в ширине элемента */
   height: 30px;
   border: 1px solid lightgray;

@@ -17,7 +17,7 @@
   border: 0px;
   cursor: pointer;
   transition: 0.2s;
-  border: 0.5px solid gray;
+  border: 0.5px solid lightgray;
 }
 .slider-arrow:hover {
   transform: scale(1.1);
@@ -29,9 +29,7 @@
   animation-name: Animation;
   animation-duration: 1s;
 }
-.slider-element:hover {
-  transform: scale(1.002);
-}
+
 .slider-left {
   width: 100%;
   background-color: #f4efe9;

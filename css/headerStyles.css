@@ -41,6 +41,12 @@ header {
 .header-title {
   font-weight: 700;
   font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-title:hover {
+  color: red;
 }
 .header-desc {
   font-weight: 400;
@@ -53,16 +59,6 @@ header {
   border: 0px;
   background-color: #fff;
   cursor: pointer;
-}
-.header-basket__holder:hover {
-  border: 1px solid rgb(229, 229, 229);
-  border-radius: 20px;
-  background: #e6e4e4;
-}
-.header-basket__holder:active {
-  border: 1px solid rgb(229, 229, 229);
-  border-radius: 20px;
-  background: rgb(172, 171, 171);
 }
 
 .basket-counter {
@@ -93,12 +89,9 @@ header {
 }
 
 .header-liked:hover {
-  border: 1px solid rgb(229, 229, 229);
   border-radius: 20px;
-  background: #e6e4e4;
 }
 .header-liked:active {
-  border: 1px solid rgb(229, 229, 229);
   border-radius: 20px;
   fill: red;
 }

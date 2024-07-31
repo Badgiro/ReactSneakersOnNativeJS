@@ -1,0 +1,55 @@
+.empty-markers {
+  margin: 30vh auto;
+  width: 100vh;
+
+  text-align: center;
+}
+
+.empty-markers__title {
+  margin-top: 21px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.empty-markers__desc {
+  font-size: 16px;
+  color: lightgray;
+}
+.empty-markers__button {
+  margin-top: 40px;
+  width: 245px;
+  height: 55px;
+  text-align: center;
+  background: #9dd458;
+  border: 0px;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.liked {
+}
+
+.markers-head {
+  display: flex;
+}
+.markersArrow {
+  border: 0px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 5px;
+}
+.markers-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 25px;
+}
+.markers {
+  display: flex;
+  justify-content: space-between;
+}
+.invisible {
+  display: none;
+}
